@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "modulesys",
+  "version": "${version}",
+  "name": "modulesys",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Arthur/modulesys"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.sl33py.modulesys.ModuleSys"
+    ]
+  },
+  "mixins": [
+    "modulesys.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

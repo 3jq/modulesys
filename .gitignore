@@ -1,0 +1,37 @@
+# Gradle
+
+lib/
+
+.gradle/
+build/
+out/
+classes/
+
+# Intellij
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# Eclipse
+
+bin
+*.launch
+.settings
+.metadata
+
+# Fabric
+
+run/
+logs/
+.fabric/
+.mixin.out/

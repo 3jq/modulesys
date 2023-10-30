@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.sl33py.modulesys.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinClientPlayerEntity",
+    "MixinKeyboard"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
